@@ -1,0 +1,32 @@
+inherit_from: .rubocop_todo.yml
+
+Rails:
+  Enabled: true
+Style/DocumentationMethod:
+  Enabled: true
+Rails/SaveBang:
+  Enabled: false
+Style/CollectionMethods:
+  Enabled: true
+Style/AutoResourceCleanup:
+  Enabled: true
+Style/OptionHash:
+  Enabled: true
+Style/SymbolArray:
+  Enabled: true
+AllCops:
+  TargetRubyVersion: 2.3
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'spec/**/*'
+    - 'vendor/**/*'
+    - 'Gemfile'
+    - 'Guardfile'
+
+Metrics/LineLength:
+  Max: 90
