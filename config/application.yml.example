@@ -1,0 +1,7 @@
+
+
+# SHOPIFY
+SHOPIFY_SECRET: 'fake_secret_to_verify_webhooks'
+SHOPIFY_API_KEY: 'fake_api_key'
+SHOPIFY_PASSWORD: 'fake_api_password'
+SHOPIFY_SHOP_NAME: 'fake_store_name'

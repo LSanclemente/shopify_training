@@ -7,6 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore application configuration
+/config/application.yml
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -15,6 +18,10 @@
 
 /node_modules
 /yarn-error.log
+
+.project
+.DS_Store
+dump.rdb
 
 # Ignore application configuration
 /config/application.yml
